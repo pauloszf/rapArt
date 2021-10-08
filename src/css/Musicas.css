@@ -1,0 +1,21 @@
+.musicasFeed {
+    height: 82vh;
+    scrollbar-width: none; 
+    overflow-y: scroll;
+    overflow-x: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.musicasFeed::-webkit-scrollbar {
+    display: none;
+}
+
+.musicaCard {
+    flex: 1 0 33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}

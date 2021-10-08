@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+.cardProduto {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    box-shadow: 3px 4px 6px #1F1F1F, -1px -1px 3px #1F1F1F;
+    width: 200px;
+    background-color: #1F1F1F;
+    margin: 0 20px 20px 20px;
+}
+
+.imagemProduto img{
+    width: 200px;
+    height: 200px;
+}
+
+.descricao {
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+
+.descricao h3 {
+    margin: 5px;
+}
+
+.descricao h6 {
+    margin: 5px;
+}
+
+.preco {
+    text-align: center;
+    color: white;
+}
+
+.preco h3{
+    border-top: solid 1px #c1c1c1;
+    margin: 10px;
+    padding: 10px;
+}

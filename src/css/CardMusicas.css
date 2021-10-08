@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.cardMusica {
+    width: 350px;
+    background-color: #CCCCCC;
+    box-shadow: 3px 4px 6px #8F8F8F, -1px -1px 3px #8F8F8F;
+    
+}
+
+
+.cardImagem img {
+    filter: grayscale(100%);
+    width: 350px;
+    height: 450px;
+}
+
+.cardImagem:hover img {
+    transition: all 0.8s ease;
+    filter: none;
+}
+
+.cardImagem:hover{
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+    transition: all 0.8s ease;
+}
+
+.cardDescricao {
+    font-family: 'Roboto', sans-serif;
+    height: 170px;
+    text-align: center;
+}
+
+.link {
+    background-color: #292929;
+    padding: 15px 0 15px 0;
+    text-align: center;
+}
+
+.link a{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+@keyframes foto {
+    0%   {
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+    100% {
+        
+    }
+  }

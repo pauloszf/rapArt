@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto&display=swap');
+
+.conteudoFeed {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.postagens {
+    width: 60%;
+}
+
+.cardsNoticias {
+    height: 75vh;
+    scrollbar-width: none; 
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.cardsNoticias::-webkit-scrollbar {
+    display: none;
+}
+
+.divisorPostagens {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.divisorPostagens h1 {
+    font-family: 'Raleway', sans-serif;
+    margin:0 30% 0 30%;
+}

@@ -1,0 +1,26 @@
+.lojaProdutos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.produtosLista {
+    margin-top: 20px;
+    padding: 10px;
+    height: 80vh;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.produtosLista::-webkit-scrollbar {
+    display: none;
+}
+
+.produto {
+    margin-bottom: 20px;
+}

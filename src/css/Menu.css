@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap');
+
+.menu {
+    background-color: #1F1F1F;
+    font-family: 'Raleway', sans-serif;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.menuBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+li {
+    list-style-type: none;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.linkMenu {
+    height: 80px;
+    padding: 0 3% 0 3%;
+}
+
+.logoMenu {
+    padding: 0 3% 0 3%;
+}
+
+.linkMenu:hover {
+    background-color: #303030;
+    cursor: pointer;
+}
+
+.logoMenu img {
+    width: 70px;
+}
