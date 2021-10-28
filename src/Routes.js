@@ -4,6 +4,7 @@ import { Route, Switch } from "react-router-dom";
 import Feed from "./Pages/Feed";
 import Loja from "./Pages/Loja";
 import Musicas from "./Pages/Musicas";
+import Contato from "./Pages/Contato";
 
 const Routes = () => {
   return(
@@ -11,6 +12,7 @@ const Routes = () => {
       <Route exact path="/" component={Feed}></Route>
       <Route exact path="/musicas" component={Musicas}></Route>
       <Route exact path="/loja" component={Loja}></Route>
+      <Route exact path="/contato" component={Contato}></Route>
     </Switch>
   );
 }

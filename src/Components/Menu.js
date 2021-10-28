@@ -12,7 +12,7 @@ export default function Menu() {
                 <li className="linkMenu"><Link to="/musicas">MÚSICAS</Link></li>
                 <li className="logoMenu"><img src={Mic} alt="Logo em forma de microfone" /></li>
                 <li className="linkMenu"><Link to="/loja">LOJA</Link></li>
-                <li className="linkMenu">CONTATO</li>
+                <li className="linkMenu"><Link to="/contato">CONTATO</Link></li>
             </ul>
         </div>
     )

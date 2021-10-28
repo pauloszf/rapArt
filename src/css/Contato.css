@@ -1,0 +1,61 @@
+.contato {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.formulario {
+    width: 60%;
+}
+
+.formulario label {
+    padding: 10px 0 5px 0;
+    width: 100%;
+}
+
+.formulario input {
+    height: 30px;
+    width: 100%;
+    border: 2px solid #292929;
+    border-radius: 5px;
+    font-size: 120%;
+    height: 30px;
+}
+.formulario textarea {
+    width: 100%;
+    border: 2px solid #292929;
+    border-radius: 5px;
+    font-size: 120%;
+}
+
+form {
+    display: grid;
+    margin: 20px;
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.botoes button {
+    width: 100%;
+    padding: 10px 0 10px 0;
+    border-radius: 10px;
+}
+
+.btEnviar {
+    background-color: #292929;
+    border: solid 1px white;
+    color: white;
+    font-size: 100%;
+}
+
+.btLimpar {
+    background-color: white;
+    border: solid 1px #292929;
+    color: #292929;
+    font-size: 100%;
+}
