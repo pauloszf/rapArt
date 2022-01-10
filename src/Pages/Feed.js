@@ -7,9 +7,9 @@ import '../css/Feed.css'
 export default class Feed extends Component {
     render() {
         return (
-            <div className="conteudoFeed">
+            <div className="conteudoFeed p-d-flex p-align-center p-justify-center">
                 <div className="postagens">
-                    <div className="divisorPostagens">
+                    <div className="divisorPostagens p-d-flex p-align-center p-justify-center">
                         <img src={micFeed} alt="" />
                         <h1>Postagens novas</h1>
                         <img src={micFeed} alt="" />

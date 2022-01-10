@@ -8,31 +8,13 @@
 .menu a {
     text-decoration: none;
     color: white;
-}
-
-.menuBar {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0;
-}
-
-li {
-    list-style-type: none;
-    font-weight: bold;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    padding: 0;
 }
 
 .linkMenu {
     height: 80px;
-    padding: 0 3% 0 3%;
-}
-
-.logoMenu {
-    padding: 0 3% 0 3%;
+    font-weight: bold;
+    color: white;
 }
 
 .linkMenu:hover {
@@ -40,6 +22,6 @@ li {
     cursor: pointer;
 }
 
-.logoMenu img {
+.linkMenu img {
     width: 70px;
 }

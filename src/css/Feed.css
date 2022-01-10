@@ -2,9 +2,6 @@
 
 .conteudoFeed {
     margin-top: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .postagens {
@@ -23,9 +20,6 @@
 }
 
 .divisorPostagens {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     margin-bottom: 20px;
 }
 .divisorPostagens h1 {

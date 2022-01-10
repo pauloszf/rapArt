@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
+import 'primeflex/primeflex.css';
 
 import Mic from '../Assets/mic2.png'
 import '../css/Menu.css';
@@ -7,13 +8,13 @@ import '../css/Menu.css';
 export default function Menu() {
     return (
         <div className="menu">
-            <ul className="menuBar">
-                <li className="linkMenu"><Link to="/">INÍCIO</Link></li>
-                <li className="linkMenu"><Link to="/musicas">MÚSICAS</Link></li>
-                <li className="logoMenu"><img src={Mic} alt="Logo em forma de microfone" /></li>
-                <li className="linkMenu"><Link to="/loja">LOJA</Link></li>
-                <li className="linkMenu"><Link to="/contato">CONTATO</Link></li>
-            </ul>
+            <div className="p-grid p-justify-between">
+                <Link className="linkMenu p-d-flex p-col p-align-center p-justify-center" to="/"><img src={Mic} alt="Logo em forma de microfone" /></Link>
+                <Link className="linkMenu p-d-flex p-col p-align-center p-justify-center" to="/musicas">MÚSICAS</Link>
+                <Link className="linkMenu p-d-flex p-col p-align-center p-justify-center" to="/loja">LOJA</Link>
+                <Link className="linkMenu p-d-flex p-col p-align-center p-justify-center" to="/contato">CONTATO</Link>
+                <Link className="linkMenu p-d-flex p-col p-align-center p-justify-center" to="/musicas">LOGIN</Link> 
+            </div>
         </div>
     )
 }
