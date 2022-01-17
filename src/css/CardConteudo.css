@@ -2,29 +2,13 @@
 
 .card {
     font-family: 'Roboto', sans-serif;
-    margin: 20px 0 20px 0;
     width: 99%;
-    box-shadow: 2px 3px 4px #8F8F8F, -1px -1px 3px #8F8F8F;
 }
 
 .cardImage {
     height: 200px;
 }
 
-.cardHeader {
-    display: flex;
-}
-
-.cardConteudo {
-    padding: 20px;
-}
-
 .cardRodape{
-    padding: 15px;
     background-color: #292929;
-}
-
-.cardRodape a {
-    margin: 0 10px 0 10px;
-    color: white;
 }

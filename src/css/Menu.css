@@ -3,6 +3,7 @@
 .menu {
     background-color: #1F1F1F;
     font-family: 'Raleway', sans-serif;
+    
 }
 
 .menu a {
@@ -12,7 +13,7 @@
 }
 
 .linkMenu {
-    height: 80px;
+    height: 8vh;
     font-weight: bold;
     color: white;
 }
@@ -24,4 +25,16 @@
 
 .linkMenu img {
     width: 70px;
+}
+.p-menubar-root-list{
+    margin: 0;
+}
+.p-menuitem-link {
+    padding: 0 !important;
+    margin: 20px;
+}
+
+.p-menubar-button {
+    justify-content: center;
+    align-items: center;
 }

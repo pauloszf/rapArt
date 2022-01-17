@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto&display=swap');
 
 .conteudoFeed {
-    margin-top: 20px;
+    padding-top: 20px;
 }
 
 .postagens {
@@ -9,10 +9,11 @@
 }
 
 .cardsNoticias {
-    height: 75vh;
+    height: 70vh;
     scrollbar-width: none; 
     overflow-y: scroll;
     overflow-x: hidden;
+    padding-bottom: 5vh;
 }
 
 .cardsNoticias::-webkit-scrollbar {

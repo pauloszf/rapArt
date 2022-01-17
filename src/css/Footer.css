@@ -3,10 +3,32 @@
 .footer {
     font-family: 'Raleway', sans-serif;
     position: absolute;
+    z-index: 80;
     width: 100%;
     top: 95vh;
     height: 5vh;
     background-color: #0A0A0A;
+}
+.footer p {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    color: white;
+    text-align: center;
+}
+
+.footerResp {
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    z-index: 80;
+    width: 100%;
+    top: 90vh;
+    height: 10vh;
+    background-color: #0A0A0A;
+}
+
+.footerResp p {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
     color: white;
     text-align: center;
 }
