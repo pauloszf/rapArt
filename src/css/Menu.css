@@ -3,27 +3,18 @@
 .menu {
     background-color: #1F1F1F;
     font-family: 'Raleway', sans-serif;
-    
 }
 
 .menu a {
     text-decoration: none;
-    color: white;
-    padding: 0;
 }
 
-.linkMenu {
-    height: 8vh;
-    font-weight: bold;
-    color: white;
-}
-
-.linkMenu:hover {
+.menu a:hover {
     background-color: #303030;
     cursor: pointer;
 }
 
-.linkMenu img {
+.menu img {
     width: 70px;
 }
 .p-menubar-root-list{

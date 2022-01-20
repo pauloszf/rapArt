@@ -4,12 +4,9 @@ import '../css/Footer.css';
 
 export default function Footer() {
     return (
-        <div>
-            <div className="footer p-d-none p-d-md-flex p-align-center p-justify-center">
-                <p>Todos os direitos reservados para fulano de tal ai com poder de ser dono disso aqui &copy;</p>
-            </div>
-            <div className="footerResp flex p-d-md-none p-align-center p-justify-center">
-                <p>Todos os direitos reservados para fulano de tal ai com poder de ser dono disso aqui &copy;</p>
+        <div >
+            <div className="footer fixed bottom-0 flex p-align-center p-justify-center w-full h-4rem">
+                <p className="text-center text-white m-0">Todos os direitos reservados para fulano de tal ai com poder de ser dono disso aqui &copy;</p>
             </div>
         </div>
     )

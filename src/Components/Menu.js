@@ -13,16 +13,16 @@ export default function Menu() {
             icon: PrimeIcons.BARS,
             items:[
                 {
-                    label: <Link className="p-d-flex p-col p-align-center p-justify-center" to="/musicas">MÚSICAS</Link>,
+                    label: <Link className="p-0 text-white p-d-flex p-col p-align-center p-justify-center" to="/musicas">MÚSICAS</Link>,
                 },
                 {
-                    label: <Link className="p-d-flex p-col p-align-center p-justify-center" to="/loja">LOJA</Link>,
+                    label: <Link className="p-0 text-white p-d-flex p-col p-align-center p-justify-center" to="/loja">LOJA</Link>,
                 },
                 {
-                    label: <Link className="p-d-flex p-col p-align-center p-justify-center" to="/contato">CONTATO</Link>,
+                    label: <Link className="p-0 text-white p-d-flex p-col p-align-center p-justify-center" to="/contato">CONTATO</Link>,
                 },
                 {
-                    label: <Link className="p-d-flex p-col p-align-center p-justify-center" to="/login">LOGIN</Link> ,
+                    label: <Link className="p-0 text-white p-d-flex p-col p-align-center p-justify-center" to="/login">LOGIN</Link> ,
                 },
             ]
         }
@@ -30,11 +30,11 @@ export default function Menu() {
     return (
         <div className="menu">
             <div className="m-0 p-d-none p-justify-between max-w-full p-d-md-flex">
-                <Link className="linkMenu p-d-flex p-col p-align-center p-justify-center" to="/"><img src={Mic} alt="Logo em forma de microfone" /></Link>
-                <Link className="linkMenu p-d-flex p-col p-align-center p-justify-center" to="/musicas">MÚSICAS</Link>
-                <Link className="linkMenu p-d-flex p-col p-align-center p-justify-center" to="/loja">LOJA</Link>
-                <Link className="linkMenu p-d-flex p-col p-align-center p-justify-center" to="/contato">CONTATO</Link>
-                <Link className="linkMenu p-d-flex p-col p-align-center p-justify-center" to="/login">LOGIN</Link> 
+                <Link className="p-0 font-bold h-5rem  p-d-flex p-col p-align-center p-justify-center" to="/"><img src={Mic} alt="Logo em forma de microfone" /></Link>
+                <Link className="p-0 font-bold h-5rem text-white p-d-flex p-col p-align-center p-justify-center" to="/musicas">MÚSICAS</Link>
+                <Link className="p-0 font-bold h-5rem text-white p-d-flex p-col p-align-center p-justify-center" to="/loja">LOJA</Link>
+                <Link className="p-0 font-bold h-5rem text-white p-d-flex p-col p-align-center p-justify-center" to="/contato">CONTATO</Link>
+                <Link className="p-0 font-bold h-5rem text-white p-d-flex p-col p-align-center p-justify-center" to="/login">LOGIN</Link> 
             </div>
             <div className="p-d-md-none">
                 <Menubar 

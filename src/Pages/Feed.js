@@ -14,7 +14,7 @@ export default class Feed extends Component {
                         <h1>Postagens novas</h1>
                         <img src={micFeed} alt="" />
                     </div>
-                    <div className="cardsNoticias">
+                    <div className="cardsNoticias overflow-y-scroll overflow-x-hidden">
                         <CardConteudo 
                             imgCard="https://picsum.photos/200/200" 
                             titulo="Titulo incrivel" 
