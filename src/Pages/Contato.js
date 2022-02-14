@@ -36,7 +36,7 @@ export default class Contato extends Component {
                         <label htmlFor="">Mensagem</label>
                         <InputTextarea className="w-full my-2" rows={10} cols={30} name="mensagem" value={this.state.mensagem} onChange={(e) => this.setValue(e)} autoResize />
                     </form>
-                    <div className="p-d-flex">
+                    <div className="p-d-flex mb-8">
                         <Button className="w-full my-2 mx-1 btEnviar" label="Enviar" />
                         <Button className="w-full my-2 mx-1 btLimpar" label="Apagar" />
                     </div>

@@ -1,0 +1,17 @@
+.text-red {
+    color: #CA054D;
+}
+
+.text-red:hover {
+    color: #ca054d91;
+}
+
+.btLogin {
+    background-color: #292929 !important;
+    color: white !important;
+}
+
+.btLogin:hover {
+    cursor: pointer;
+    background-color: #292929b7 !important;
+}

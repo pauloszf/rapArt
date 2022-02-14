@@ -5,11 +5,11 @@ import '../css/CardMusicas.css'
 
 export default function CardMusicas(props) {
     return (
-        <div className="cardMusica" >
+        <div className="w-20rem shadow-4 cardMusica" >
             <div className="cardImagem">
-                <img src={props.cardImagem} alt="" />
+                <img className="w-20rem h-27rem" src={props.cardImagem} alt="" />
             </div>
-            <div className="cardDescricao">
+            <div className="cardDescricao text-center px-4">
                 <h1>{props.tituloMusica}</h1>
                 <p> {props.descricaoMusica} </p>
             </div>

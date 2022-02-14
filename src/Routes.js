@@ -5,6 +5,7 @@ import Feed from "./Pages/Feed";
 import Loja from "./Pages/Loja";
 import Musicas from "./Pages/Musicas";
 import Contato from "./Pages/Contato";
+import Login from "./Pages/Login";
 
 const Routes = () => {
   return(
@@ -13,6 +14,7 @@ const Routes = () => {
       <Route exact path="/musicas" component={Musicas}></Route>
       <Route exact path="/loja" component={Loja}></Route>
       <Route exact path="/contato" component={Contato}></Route>
+      <Route exact path="/login" component={Login}></Route>
     </Switch>
   );
 }

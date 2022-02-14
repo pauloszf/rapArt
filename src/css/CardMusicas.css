@@ -1,16 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 .cardMusica {
-    width: 350px;
-    background-color: #CCCCCC;
-    box-shadow: 3px 4px 6px #8F8F8F, -1px -1px 3px #8F8F8F;
-    
+    background-color: #CCCCCC;   
 }
-
 
 .cardImagem img {
     filter: grayscale(100%);
-    width: 350px;
-    height: 450px;
 }
 
 .cardImagem:hover img {
@@ -28,7 +22,6 @@
 .cardDescricao {
     font-family: 'Roboto', sans-serif;
     height: 170px;
-    text-align: center;
 }
 
 .link {
